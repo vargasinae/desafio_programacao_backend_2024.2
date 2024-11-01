@@ -47,7 +47,6 @@ application.get('/login', (req, res) => {
     res.status(OK).json({ message: 'Welcome, ${existentUser.userName}!', profile: existentUser.profile });
 });
 
-// Rota para professores criarem oferta de turma
 application.post('/class', (req, res) => {
     const { userName, password, className, schedule } = req.body;
 
