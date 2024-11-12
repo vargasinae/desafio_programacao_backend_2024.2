@@ -1,7 +1,7 @@
 export interface Class {
     classId: number;
-    className: String;
-    teacher: String;
+    className: string;
+    teacher: string;
     studentsRegistered: number;
     schedule: number;
 }
